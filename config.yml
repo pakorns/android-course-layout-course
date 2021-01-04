@@ -1,0 +1,16 @@
+title: Android-course-layout
+description: Learning layout in android studio
+template:
+  repo: android-course-layout-template
+  name: android-course-layout
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
